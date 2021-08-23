@@ -1,0 +1,30 @@
+/* .botaoNav {
+	background-color: #d52856;
+	border-radius: 5px;
+}
+
+.botaoNav:hover {
+	background-color: #b52249;
+} */
+
+.figuraCarrocel {
+	max-height: 875px;
+}
+
+.citacao-1 {
+	background-image: url(img/running1.jpg);
+	height: 280px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.treinos:hover {
+	cursor: pointer;
+	transform: scale(1.14);
+}
+
+.corDeFundo {
+	background-color: black;
+}
