@@ -1,205 +1,201 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fitness</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-  </head>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="img/logo.png"
-            alt="logo da empresa fitness"
-            width="auto"
-            height="70px"
-            class="d-inline-block align-text-top"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item fs-4 ps-4">
-              <a class="nav-link active" href="#">Início</a>
-            </li>
-            <li class="nav-item fs-4 ps-4">
-              <a class="nav-link" href="#">Treinos</a>
-            </li>
-            <li class="nav-item fs-4 ps-4">
-              <a class="nav-link" href="#">Planos</a>
-            </li>
-            <li class="nav-item fs-4 px-4">
-              <a class="nav-link" href="teste.html">Contato</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2 fs-4"
-              type="Search"
-              placeholder="digite aqui..."
-              aria-label="Search"
-            />
 
-            <a href="#" class="botaoNav"
-              ><button class="btn text-white fs-4" type="submit">
-                Procurar
-              </button></a
-            >
-          </form>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mx-2">
+    <div class="container-fluid p-0">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="logo da empresa fitness" width="auto" height="70px"
+          class="d-inline-block align-text-top" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item fs-5 ps-4">
+            <a class="nav-link active" href="#">Início</a>
+          </li>
+          <li class="nav-item fs-5 ps-4">
+            <a class="nav-link" href="#">Treinos</a>
+          </li>
+          <li class="nav-item fs-5 ps-4">
+            <a class="nav-link" href="#">Planos</a>
+          </li>
+          <li class="nav-item fs-5 px-4">
+            <a class="nav-link" href="teste.html">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 fs-5" type="Search" placeholder="digite aqui..." aria-label="Search" />
+          <button class="btn text-white btn-danger fs-5" type="submit">
+            Procurar
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <section id="carouselExampleCaptions" class="carousel slide  mb-3" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="figuraCarrocel">
+          <img src="img/musculacao1.jpg" class="d-block w-100" alt="Foto de uma mulher segurando peso">
+        </div>
+        <div class="carousel-caption d-md-block mb-3 fs-5">
+          <h1>Seu corpo em forma</h1>
+          <p>Faça treinamento funcional e faça seu corpo se mexer</p>
+          <button class="btn btn-danger text-white " type="submit">
+            Saiba mais
+          </button>
         </div>
       </div>
-    </nav>
-  </header>
-  <body>
-    <section>
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner"  data-bs-interval="10000">
-          <div class="carousel-item active"> 
-            <div class="img-container">
-              <img
-                src="img/homem-fazendo-flexao.jpg"
-                class="w-100"
-                height=""
-                object-fit:
-                alt="foto de homem fazendo flexão com halter"
-              />       
-            </div>
-            
-            <div class="carousel-caption fs-5">
-              <h1>Seu corpo em forma</h1>
-              <p>Faça treinamento funcional e faça seu corpo se mexer</p>
-            </div>
+      <div class="carousel-item">
+        <div class="figuraCarrocel">
+          <div class="figuraCarrocel">
+            <img src="img/academia.jpg" class="d-block w-100" alt="imagem do espaço da academia">
           </div>
-          <div class="carousel-item"  data-bs-interval="6000">
-            <div class="img-container">
-              <img
-              src="img/academia.jpg"
-              class="w-100"
-              
-              alt="imagem do espaço da academia"
-              />
-            </div>
-            
-            <div class="carousel-caption fs-5">
-              <h1>Academia preparada</h1>
-              <p>Agende com um personal trainer e venha malhar com a gente</p>
-            </div>
-          </div>
-          <div class="carousel-item" >
-            <div class="img-container">
-              <img
-                src="img/mulher-fazendo-ioga.jpg"
-                class="w-100"
-                
-                alt="foto de mulher fazendo pose de ioga"
-              />
-            </div>            
-            <div class="carousel-caption fs-5">
-              <h1>Você em paz com seu corpo</h1>
-              <p>
-                Venha fazer aulas de ioga e se liberte do estresse do dia-a-dia
-              </p>
-            </div>
+          <div class="carousel-caption d-md-block mb-3 fs-5">
+            <h1>Academia preparada</h1>
+            <p>Agende com um personal trainer e venha malhar com a gente</p>
+            <a href="#" class="btn btn-danger">Saiba mais</a>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </section>
-    <section>
-      <div class="row d-flex justify-content-evenly align-items-start mt-4 fs-5">      
-            <div class="col-lg-3 text-center ">
-              <img class="rounded-circle img-thumbnail border-0" src="img/treinamento-funcional.jpg" alt="foto que corresponde a treinamento funcional">
-            <p><h2>Treinamento funcional</h2></p>
-            <p>O treinamento funcional baseia-se no movimento natural do ser humano como correr, pular e empurrar.</p>
-            <p>Saiba mais</p>
-            </div>          
-          <div class="col-lg-3 text-center ">
-            <img class="rounded-circle img-thumbnail border-0" src="img/treinador.jpg" alt="um treinador ajudando uma aluna na academia">
-          <p><h2>Treino físico</h2></p>
-          <p>Treinamento de cada grupo muscular trabalhado duas vezes na semana usando aparelhos de academia.</p>
-          <p>Saiba mais</p>
-          </div>
-          <div class="col-lg-3 text-center ">
-            <img class="rounded-circle img-thumbnail border-0" src="img/posicao-ioga.jpg" alt="oto de uma mulher fazendo uma pose de ioga">
-          <p><h2>Ioga</h2></p>
-          <p>É um conceito que se refere às tradicionais disciplinas físicas e mentais originárias da Índia.</p>
-          <p>Saiba mais</p>
-          </div>
-          </div>
-        
+      <div class="carousel-item">
+        <div class="figuraCarrocel">
+          <img src="img/ioga.jpg" class="d-block w-100" max- alt="foto de uma mulher fazendo pose de ioga">
+        </div>
+        <div class="carousel-caption d-md-block mb-3 fs-5">
+          <h1>Você em paz com seu corpo</h1>
+          <p>Venha fazer aulas de ioga e se liberte do estresse do dia-a-dia</p>
+          <a href="#" class="btn btn-danger">Saiba mais</a>
+        </div>
       </div>
-    </section>
-    <blockquote class="blockquote fs-4 text-white text-center">
-      <p>"Uma hora antes da academia: cansaço e vontade de ficar em casa. Uma hora depois da academia: aquele sentimento maravilhoso de dever cumprido."</p>
-      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+  </section>
+  <section>
+    <div class="row d-flex justify-content-evenly align-items-start mt-5 fs-5 mx-2">
+      <div class="col-lg-3 text-center">
+        <div class="treinos">
+          <img class="rounded-circle  img-thumbnail border-0" src="img/treinamento-funcional.jpg"
+            alt="foto que corresponde a treinamento funcional">
+        </div>
+        <p>
+        <h2>Treinamento funcional</h2>
+        </p>
+        <p>O treinamento funcional baseia-se no movimento natural do ser humano como correr, pular e empurrar.</p>
+        <p>Saiba mais</p>
+      </div>
+      <div class="col-lg-3 text-center ">
+        <div class="treinos">
+          <img class="rounded-circle img-thumbnail border-0" src="img/treinador.png"
+            alt="um treinador ajudando uma aluna na academia">
+        </div>
+        <p>
+        <h2>Treino físico</h2>
+        </p>
+        <p>Treinamento de cada grupo muscular trabalhado duas vezes na semana usando aparelhos de academia.</p>
+        <p>Saiba mais</p>
+      </div>
+      <div class="col-lg-3 text-center ">
+        <div class="treinos">
+          <img class="rounded-circle img-thumbnail border-0" src="img/posicao-ioga.png"
+            alt="oto de uma mulher fazendo uma pose de ioga">
+        </div>
+        <p>
+        <h2>Ioga</h2>
+        </p>
+        <p>É um conceito que se refere às tradicionais disciplinas físicas e mentais originárias da Índia.</p>
+        <p>Saiba mais</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="citacao-1 row align-items-center ">
+    <blockquote class="blockquote fs-5 text-white text-center">
+      <p>"Uma hora antes da academia: cansaço e vontade de ficar em casa. Uma hora depois da academia: aquele sentimento
+        maravilhoso de dever cumprido."</p>
+      <p>Uma hora depois da academia: aquele sentimento maravilhoso de dever cumprido."</p>
     </blockquote>
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </section>
+  <section>
+    <h1 class="text-center mx-2 mt-5">Conheça nossos planos</h1>
+    <section class="row justify-content-evenly mb-1 mt-3 mx-2 fs-5">
+      <div class=" col-3 card border-secundary text-center p-0 mb-2">
+        <h3 class="card-header ">Básico</h3>
+        <div class="row card-body  ">
+          <div class="card-title "> <b class="fs-1">R$50<sub class="text-muted fs-5">/mês</sub> </b></div>
+          <ul class="m-0 p-0">
+            <div>Treino 2 dias da semana</div>
+            <div>Acompanhamento de personal trainer</div>
+            <div>Aulas de spinning inclusas</div>
+            <div>Teste físico gratuito</div>
+          </ul>
+          <a href="#" class="btn btn-danger fs-5">Contrate este plano</a>
+        </div>
+      </div>
+      <div class="col-3 card border-secundary text-center p-0 mb-2">
+        <h3 class="card-header ">Pro</h3>
+        <div class="row card-body  ">
+          <div class="card-title "> <b class="fs-1">R$80<sub class="text-muted fs-5">/mês</sub> </b></div>
+          <ul class="m-0 p-0">
+            <div>Treino 4 dias da semana</div>
+            <div>Acompanhamento com personal trainer e nutricionista</div>
+            <div>Aulas de spinning e ioga inclusas</div>
+            <div>Teste físico gratuito</div>
+          </ul>
+          <a href="#" class="btn btn-danger fs-5">Contrate este plano</a>
+        </div>
+      </div>
+      <div class="col-3 card border-secundary text-center p-0 mb-2">
+        <h3 class="card-header ">Enterprise</h3>
+        <div class="row card-body  ">
+          <div class="card-title "> <b class="fs-1">R$130<sub class="text-muted fs-5">/mês</sub> </b></div>
+          <ul class="m-0 p-0">
+            <div>Treino 7 dias da semana</div>
+            <div>Acompanhamento de personal trainer, nutricionista e psicóloga</div>
+            <div>Aulas de spinning, ioga e zumba inclusas</div>
+            <div>Treinamento funcional e cross-fit</div>
+            <div>Teste físico gratuito</div>
+          </ul>
+          <a href="#" class="btn btn-danger fs-5">Contrate este plano</a>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
